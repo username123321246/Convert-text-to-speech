@@ -1,3 +1,5 @@
+
+
 from tkinter import *
 from gtts import gTTS
 
@@ -11,26 +13,10 @@ root.title("Text to Speech Convertor")
 
 def convert():
 
-    language = "ro"
+    language = "en"
     qwerty = gTTS(asdfg.get(), lang = language, slow = False)
     qwerty.save("Save.wav")
     os.system("Save.wav")
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -54,21 +40,7 @@ asdfgh.place(x = 210, y = 300)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 root.mainloop()
-
-
-
 
 
 
